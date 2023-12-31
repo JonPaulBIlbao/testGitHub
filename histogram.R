@@ -14,3 +14,5 @@ plot(cars)
 abline(lm(dist ~ speed, data = cars))
 # Calculate the correlation between speed and distance
 cor(cars$speed, cars$dist)
+# Trying changes in Posit Cloud
+
