@@ -15,4 +15,9 @@ abline(lm(dist ~ speed, data = cars))
 # Calculate the correlation between speed and distance
 cor(cars$speed, cars$dist)
 # Trying changes in Posit Cloud
+install.packages("gitcreds")
+library(gitcreds)
 
+gitcreds::gitcreds_set()
+# Ante la pregunta: "Enter password or token"
+# introducir el token copiado en el paso anterior
